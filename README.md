@@ -12,7 +12,7 @@ A custom Dynamic Window Approach local planner for TurtleBot3 in Gazebo using RO
 
 ```bash
 1. Clone
-git clone git@github.com:<your-user>/dwa_planner_ros2.git
+git clone https://github.com/Tushar10987/dwa_planner_ros2.git
 cd dwa_planner_ros2
 
 2. Create a ROS2 workspace
