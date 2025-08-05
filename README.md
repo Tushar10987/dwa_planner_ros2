@@ -30,3 +30,8 @@ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
 5. Launch your planner
 ros2 run dwa_planner dwa_planner
+
+🎯 Choosing Goals
+Pick any (X, Y) inside a 1 m radius of the start (0,0) to avoid collisions with the ring of pillars.
+Example goals: ( 0.5,  0.5), ( 0.5,  0.0), ( 0.0,  0.5), ( 0.7,  0.7), (-0.5, -0.5)
+## The sample goals should satisfy √(x² + y²) > 1.0 m .
